@@ -7,7 +7,7 @@ public class CommandExecutorProxy implements CommandExecutor {
     private CommandExecutor executor;
        
     public CommandExecutorProxy(String user, String pwd){
-        if("Pankaj".equals(user) && "J@urnalD$v".equals(pwd)){
+        if("Sting".equals(user) && "NinaSimon".equals(pwd)){
             isAdmin=true;
         }
         //Goruldugu gibi proxy sinifinda Real Subject nesnesi yaratilir.
